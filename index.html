@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--========== BOX ICONS ==========-->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+        <!--========== CSS ==========-->
+        <link rel="stylesheet" href="styles.css">
+
+        <title>SK Coffee</title>
+    </head>
+    <body>
+
+        <!--========== SCROLL TOP ==========-->
+        <a href="#" class="scrolltop" id="scroll-top">
+            <i class='bx bx-chevron-up scrolltop__icon'></i>
+        </a>
+
+        <!--========== HEADER ==========-->
+        <header class="l-header" id="header">
+            <nav class="nav bd-container">
+                <a href="#" class="logo"><img src="./assets/img/logo.png" alt=""></a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#services" class="nav__link">Services</a></li>
+                        <li class="nav__item"><a href="#menu" class="nav__link">Menu</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact us</a></li>
+
+                        
+                    </ul>
+                </div>
+                <div class="nav-icons">
+                    <a href="#"> <i class="fa-regular fa-heart"></i></a>
+                    <a href="#"><i class="fa fa-shopping-cart"></i></a>
+                   
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--========== HOME ==========-->
+            <section class="home" id="home">
+                <div class="home__container bd-container bd-grid">
+                    <div class="home__data">
+                        <h1 class="home__title">Be The Fastest In Delivering Your Food</h1>
+                        <p class="home__subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis minus corporis non? Fugiat necessitatibus esse animi iusto facere sunt, mollitia.</p>
+                        <div class="input-container">
+                            <input type="text" placeholder="Enter location" id="location-input">
+                            <span class="icon"><i class="fas fa-map-marker-alt"></i></span>
+                        </div>
+                        <div class="delivery-options">
+                            <button class="btn">Delivery</button>
+                            <p><b>Or</b></p>
+                            <button class="btn">Pick Up</button>
+                        </div>
+                    </div>
+    
+                    <img src="./assets/img/hero.png" alt="" class="home__img">
+                </div>
+            </section>
+            
+            <!--========== ABOUT ==========-->
+            <section class="about section bd-container" id="about">
+                <div class="about__container  bd-grid">
+                    <div class="about__data">
+                        <span class="section-subtitle about__initial">About us</span>
+                        <h2 class="section-title about__initial">We cook the best <br> tasty food</h2>
+                        <p class="about__description">We cook the best food in the entire city, with excellent customer service, the best meals and at the best price, visit us.</p>
+                        <button class="about_btn">
+                            <span>Button</span>
+                          </button>
+                    </div>
+
+                    <img src="./assets/img/shef.jpg" alt="" class="about__img">
+
+                    <img src="./assets/img/icon.png" alt="" class="upper-right-image">
+                    <img src="./assets/img/shf.png" alt="" class="bottom-right-image">
+                </div>
+            </section>
+
+            <!--========== SERVICES ==========-->
+            <section class="services section bd-container" id="services">
+                <span class="section-subtitle">Offering</span>
+                <h2 class="section-title">Our amazing services</h2>
+                <img src="./assets/img/icon1.png" alt="" class="service_icon">
+                <div class="services__container  bd-grid">
+                    <div class="services__content">
+                        <img src="./assets/img/a1.png" alt="" class="services__img">
+                        <h3 class="services__title">Easy to Order</h3>
+                        <p class="services__description">We offer our clients excellent quality services for many years, with the best and delicious food in the city.</p>
+                    </div>
+
+                    <div class="services__content">
+                        <img src="./assets/img/a2.png" alt="" class="services__img">
+                        <h3 class="services__title">Fastest Delivery</h3>
+                        <p class="services__description">We offer our clients excellent quality services for many years, with the best and delicious food in the city.</p>
+                    </div>
+
+                    <div class="services__content">
+                        <img src="./assets/img/a3.png" alt="" class="services__img">
+                        <h3 class="services__title">Best Quality</h3>
+                        <p class="services__description">We offer our clients excellent quality services for many years, with the best and delicious food in the city.</p>
+                    </div>
+                </div>
+                
+            </section>
+
+            <!--========== Special Dishes ==========-->
+            <section class="menu section bd-container" id="menu">
+                <span class="section-subtitle">Special</span>
+                <h2 class="section-title">Our Special Dishes</h2>
+
+                <div class="menu__container bd-grid">
+                    <div class="menu__content">
+                        <img src="assets/img/plate1.png" alt="" class="menu__img">
+                        <h3 class="menu__name">Barbecue salad</h3>
+                        <span class="menu__detail">Delicious dish</span>
+                        <span class="menu__preci">$22.00</span>
+                        <a href="#" class="button menu__button"><i class='bx bx-cart-alt'></i></a>
+                    </div>
+
+                    <div class="menu__content">
+                        <img src="assets/img/plate2.png" alt="" class="menu__img">
+                        <h3 class="menu__name">Salad with fish</h3>
+                        <span class="menu__detail">Delicious dish</span>
+                        <span class="menu__preci">$12.00</span>
+                        <a href="#" class="button menu__button"><i class='bx bx-cart-alt'></i></a>
+                    </div>
+                    
+                    <div class="menu__content">
+                        <img src="assets/img/plate3.png" alt="" class="menu__img">
+                        <h3 class="menu__name">Spinach salad</h3>
+                        <span class="menu__detail">Delicious dish</span>
+                        <span class="menu__price">$9.50</span>
+                        <a href="#" class="button menu__button"><i class='bx bx-cart-alt'></i></a>
+                    </div>
+                </div>
+                <div class="menu-btn-wrapper">
+                    <button class="menu-btn">View Full Menu</button>
+                </div>
+            </section>
+
+            <!--===== Full Menu =======-->
+            <section class="fullmenu-section bd-container">
+                <div class="fullmenu__container bd-grid">
+                    <h1>Our Popular Menu</h1>
+                    <p>Lorem Ipsum Dolor Sit Amet, Consectetur Adipisicing Elit, Sed Do Eiusm Tempor Incididunt Ut Labore Et Dolore Magna Aliqua.</p>
+                    <div class="fullmenu-filter">
+                        <button>All</button>
+                        <button>Breakfast</button>
+                        <button>Lunch</button>
+                        <button>Dinner</button>
+                        <button>Desserts</button>
+                        <button>Beverage</button>
+                    </div>
+                    <div class="fullmenu-items">
+                        <div class="fullmenu-item">
+                            <img src="./assets/img/plate6.png" alt="Food Image">
+                            <div class="fullmenu-info">
+                                <h2>Hamburger Street Food Seafood Fast Food</h2>
+                                <p>$8.53</p>
+                                <div class="full-menu-btns">
+                                    <button>Add To Cart <i class="fa-solid fa-cart-shopping"></i></button>
+                                    <button><i class="fa-regular fa-heart"></i></button>
+                                </div>
+                            </div>
+                            <div class="rating">
+                                <i class="fa-solid fa-star"></i>
+                                <span>4.5</span>
+                            </div>
+                        </div>
+                        <div class="fullmenu-item">
+                            <img src="./assets/img/plate5.png" alt="Food Image">
+                            <div class="fullmenu-info">
+                                <h2>Hamburger Street Food Seafood Fast Food</h2>
+                                <p>$8.53</p>
+                                <div class="full-menu-btns">
+                                    <button>Add To Cart <i class="fa-solid fa-cart-shopping"></i></button>
+                                    <button><i class="fa-regular fa-heart"></i></button>
+                                </div>
+                                
+                            </div>
+                            <div class="rating">
+                                <i class="fa-solid fa-star"></i>
+                                <span>4.5</span>
+                            </div>
+                        </div>
+                        <div class="fullmenu-item">
+                            <img src="./assets/img/plate4.png" alt="Food Image">
+                            <div class="fullmenu-info">
+                                <h2>Hamburger Street Food Seafood Fast Food</h2>
+                                <p>$8.53</p>
+                                <div class="full-menu-btns">
+                                    <button>Add To Cart <i class="fa-solid fa-cart-shopping"></i></button>
+                                    <button><i class="fa-regular fa-heart"></i></button>
+                                </div>
+                            </div>
+                            <div class="rating">
+                                <i class="fa-solid fa-star"></i>
+                                <span>4.5</span>
+                            </div>
+                        </div>
+                        <div class="fullmenu-item">
+                            <img src="./assets/img/plate3.png" alt="Food Image">
+                            <div class="fullmenu-info">
+                                <h2>Hamburger Street Food Seafood Fast Food</h2>
+                                <p>$8.53</p>
+                                <div class="full-menu-btns">
+                                    <button>Add To Cart <i class="fa-solid fa-cart-shopping"></i></button>
+                                    <button><i class="fa-regular fa-heart"></i></button>
+                                </div>
+                            </div>
+                            <div class="rating">
+                                <i class="fa-solid fa-star"></i>
+                                <span>4.5</span>
+                            </div>
+                        </div>
+                        <div class="fullmenu-item">
+                            <img src="./assets/img/plate2.png" alt="Food Image">
+                            <div class="fullmenu-info">
+                                <h2>Hamburger Street Food Seafood Fast Food</h2>
+                                <p>$8.53</p>
+                                <div class="full-menu-btns">
+                                    <button>Add To Cart <i class="fa-solid fa-cart-shopping"></i></button>
+                                    <button><i class="fa-regular fa-heart"></i></button>
+                                </div>
+                            </div>
+                            <div class="rating">
+                                <i class="fa-solid fa-star"></i>
+                                <span>4.5</span>
+                            </div>
+                        </div>
+                        <div class="fullmenu-item">
+                            <img src="./assets/img/plate1.png" alt="Food Image">
+                            <div class="fullmenu-info">
+                                <h2>Hamburger Street Food Seafood Fast Food</h2>
+                                <p>$8.53</p>
+                                <div class="full-menu-btns">
+                                    <button>Add To Cart <i class="fa-solid fa-cart-shopping"></i></button>
+                                    <button><i class="fa-regular fa-heart"></i></button>
+                                </div>
+                            </div>
+                            <div class="rating">
+                                <i class="fa-solid fa-star"></i>
+                                <span>4.5</span>
+                            </div>
+                        </div>
+                  
+                        
+                    </div>
+                    <div class="menu-btn-wrapper">
+                        <button class="about_btn explore_btn">
+                            <span>Explore All Menu</span>
+                          </button>
+                    </div>
+                    
+                    
+                </div>
+            </section>
+            <!--========== Testimonial ==========-->
+            <section class="testimonial  section bd-container" id="testimonial">
+                <div class="testimonial__container  bd-grid">
+                    <img src="./assets/img/testimonial.png" alt="" class="customer__img">
+                    <div class="testimonial__data">
+                        <h2 class="section-title testimonial__initial">Our Lovely Customers Loves Our Food</h2>
+                        <p class="testimonial__description">The best food in the entire city, with excellent customer service, the best meals and at the best price, visit us. with excellent customer service, the best meals and at the best price, visit us.</p>
+                        <div class="customer-ratings">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <h4  class="customer-name">Courtney Henry</h4>
+                        <p class="customer-address">Islamabad Pakistan</p>
+                        <button class="testimonial_btns">   
+                            <i class="fa-solid fa-arrow-left"></i>
+                            <i class="fa-solid fa-arrow-right"></i>
+                          </button>
+                    </div>
+
+                    
+                </div>
+            </section>
+
+
+
+
+            <!--========== CONTACT US ==========-->
+            <section id="contact" class="contact">
+                <div class="container">
+        
+                  <div class="form reservation-form bg-black-10">
+        
+                    <form action="" class="form-left">
+        
+                      <h2 class="headline-1 text-center">Online Reservation</h2>
+        
+                      <p class="form-text text-center">
+                        Booking request <a href="#" class="link">+92-312-0941683</a>
+                        or fill out the order form
+                      </p>
+        
+                      <div class="input-wrapper">
+                        <input type="text" name="name" placeholder="Your Name" autocomplete="off" class="input-field">
+        
+                        <input type="tel" name="phone" placeholder="Phone Number" autocomplete="off" class="input-field">
+                      </div>
+        
+                      <div class="input-wrapper">
+        
+                        <div class="icon-wrapper">
+                          <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+        
+                          <select name="person" class="input-field">
+                            <option value="1-person">1 Person</option>
+                            <option value="2-person">2 Person</option>
+                            <option value="3-person">3 Person</option>
+                            <option value="4-person">4 Person</option>
+                            <option value="5-person">5 Person</option>
+                            <option value="6-person">6 Person</option>
+                            <option value="7-person">7 Person</option>
+                          </select>
+        
+                          <ion-icon name="chevron-down" aria-hidden="true"></ion-icon>
+                        </div>
+        
+                        <div class="icon-wrapper">
+                          <ion-icon name="calendar-clear-outline" aria-hidden="true"></ion-icon>
+        
+                          <input type="date" name="reservation-date" class="input-field">
+        
+                          <ion-icon name="chevron-down" aria-hidden="true"></ion-icon>
+                        </div>
+        
+                        <div class="icon-wrapper">
+                          <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+        
+                          <select name="person" class="input-field">
+                            <option value="08:00am">08 : 00 am</option>
+                            <option value="09:00am">09 : 00 am</option>
+                            <option value="010:00am">10 : 00 am</option>
+                            <option value="011:00am">11 : 00 am</option>
+                            <option value="012:00am">12 : 00 am</option>
+                            <option value="01:00pm">01 : 00 pm</option>
+                            <option value="02:00pm">02 : 00 pm</option>
+                            <option value="03:00pm">03 : 00 pm</option>
+                            <option value="04:00pm">04 : 00 pm</option>
+                            <option value="05:00pm">05 : 00 pm</option>
+                            <option value="06:00pm">06 : 00 pm</option>
+                            <option value="07:00pm">07 : 00 pm</option>
+                            <option value="08:00pm">08 : 00 pm</option>
+                            <option value="09:00pm">09 : 00 pm</option>
+                            <option value="10:00pm">10 : 00 pm</option>
+                          </select>
+        
+                          <ion-icon name="chevron-down" aria-hidden="true"></ion-icon>
+                        </div>
+                      </div>
+        
+                      <textarea name="message" placeholder="Message" autocomplete="off" class="input-field"></textarea>
+        
+                      <button type="submit" class="btn ">
+                        <span class="text text-1">Book A Table</span>
+        
+                        
+                      </button>
+        
+                    </form>
+        
+                    <div class="form-right text-center" style="background-image: url('./assets/img/form-pattern.png')">
+                      <h2 class="headline-1 text-center">Contact Us</h2>
+                      <p class="contact-label">Booking Request</p>
+                      <a href="#" class="body-4 contact-number hover-underline">+92-312-0941683</a>
+                      <div class="separator"></div>
+                      <p class="contact-label">Location</p>
+                      <address class="body-4">
+                        Durrani Cafe Peshawar <br>
+                        KPK
+                      </address>
+                      <p class="contact-label">Lunch Time</p>
+                      <p class="body-4">
+                        Monday to Sunday <br>
+                        11.00 am - 2.30pm
+                      </p>
+                      <p class="contact-label">Dinner Time</p>
+        
+                      <p class="body-4">
+                        Monday to Sunday <br>
+                        05.00 pm - 10.00pm
+                      </p>
+        
+                    </div>
+                  </div>
+                </div>
+              </section>
+
+              <!--========== SUBSCRIPTION ==========-->
+              <section class="subscription">
+                <div class="subscription-content">
+                    
+                  <h2 class="subscription-heading">Join Our Member And Get <br> Discount To 35%</h2>
+                  <form class="subscription-form">
+                    <input type="email" placeholder="Enter Your Email" class="subscription-input" required>
+                    <button type="submit" class="subscription-button">Sign In</button>
+                  </form>
+                </div>
+              </section>
+              
+        
+        </main>
+
+        <!--========== FOOTER ==========-->
+        <footer class="footer section bd-container">
+            <div class="footer__container bd-grid">
+                <div class="footer__content">
+                    <a href="#" class="footer__logo"><img src="./assets/img/logo.png" width="150" alt=""></a>
+                    <span class="footer__description">Restaurant</span>
+                    <div>
+                        <a href="#" class="footer__social"><i class='bx bxl-facebook'></i></a>
+                        <a href="#" class="footer__social"><i class='bx bxl-instagram'></i></a>
+                        <a href="#" class="footer__social"><i class='bx bxl-twitter'></i></a>
+                    </div>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Services</h3>
+                    <ul>
+                        <li><a href="#" class="footer__link">Delivery</a></li>
+                        <li><a href="#" class="footer__link">Pricing</a></li>
+                        <li><a href="#" class="footer__link">Fast food</a></li>
+                        <li><a href="#" class="footer__link">Reserve your spot</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Information</h3>
+                    <ul>
+                        <li><a href="#" class="footer__link">Event</a></li>
+                        <li><a href="#" class="footer__link">Contact us</a></li>
+                        <li><a href="#" class="footer__link">Privacy policy</a></li>
+                        <li><a href="#" class="footer__link">Terms of services</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Adress</h3>
+                    <ul>
+                        <li>University town</li>
+                        <li>Peshawar</li>
+                        <li>+92-312-0941683</li>
+                        <li>sohaibdurrani@email.com</li>
+                    </ul>
+                </div>
+            </div>
+
+            <p class="footer__copy"> &copy; 2024 SK Coffee. All Rights Reserved | Crafted by <a href="https://github.com/SohaibDurrani09"
+                target="_blank" class="link">Sohaib Durrani</a></p>
+        </footer>
+
+        <!--========== SCROLL REVEAL ==========-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--========== MAIN JS ==========-->
+        <script src="main.js"></script>
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    </body>
+</html>
+<!DOCTYPE html>
+        
